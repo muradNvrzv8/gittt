@@ -30,7 +30,6 @@
         {
             button1 = new Button();
             label1 = new Label();
-            label2 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -41,7 +40,6 @@
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -52,21 +50,11 @@
             label1.TabIndex = 1;
             label1.Text = "label1";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(219, 57);
-            label2.Name = "label2";
-            label2.Size = new Size(51, 15);
-            label2.TabIndex = 2;
-            label2.Text = "basdiq 2";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(845, 470);
-            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "Form1";
@@ -80,6 +68,5 @@
 
         private Button button1;
         private Label label1;
-        private Label label2;
     }
 }
