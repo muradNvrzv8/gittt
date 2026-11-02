@@ -14,7 +14,7 @@ namespace git2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Hello, World!";
+            label1.Text = "branch2";
         }
     }
 }
